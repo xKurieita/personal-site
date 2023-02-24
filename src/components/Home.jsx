@@ -17,6 +17,16 @@ const  Home = () => {
             <div className="synop">
                 I'm currently working as a freelance software engineer who specializes in building unique and responsive web applications. Currently I'm working a new e-commerce platform for all high fashion, with my organization Greedy Pig Innovations, as its lead designer and engineer. While youre here check out my work and leave a follow on my socials! While freelancing is fulfilling on it's own right, I am willing to work for the right employer. <a href='mailto:n911luna@gmail.com' >Contact me</a> if youre interested in my work!
             </div>
+            <div className="socials">
+            <div className="header"></div>
+            <div className="social-links">
+                <a href="https://github.com/xKurieita" target='_blank'><img width='32px' height='32px' src="https://cdn.simpleicons.org/github/fff" alt="github" /></a>
+
+                <a href="https://www.linkedin.com/in/nelson-luna/" target='_blank'><img width='32px' height='32px' src="https://cdn.simpleicons.org/linkedin/fff" alt="linkedin" /></a>
+
+            </div>
+            <div className="header"></div>
+            </div>
         </section>
         <section className='About' id="About">
             <div className='header'> <h2>About</h2></div>

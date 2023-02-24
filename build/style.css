@@ -347,6 +347,13 @@ c {
     .menu-icon.active .bar {
       background-color: #fff;
     }
+
+    .socials .header {
+      max-width: 150px;
+    }
+    .socials {
+      justify-content: space-between;
+    }
 }
 
 ul>li>h5{
@@ -453,3 +460,13 @@ ul>li>h5{
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
+.socials{
+  padding-top: 150px;
+  display: flex;
+}
+
+.social-links{
+  display: flex;
+  margin-left: 10px;
+  gap:10px
+}
