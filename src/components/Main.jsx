@@ -1,15 +1,29 @@
-import React from 'react';
+import React, {useState, useEffect, useRef} from 'react';
+import {Home, Nav} from './';
 
 const Main = () => {
+    const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        setLoading(true);
+        setTimeout(() => {
+            setLoading(false)
+        },3000)
+    }, []);
 
     return (
-        <div>
-           <h1 style={{position: "absolute",top: "50%",left: "50%",transform: "translate(-50%, -50%)"}}>
-                Hello World
-                </h1>
+        <div className="main" id='fade-in'>
+            { loading ? (
+            <div className="center">
+                <div className="loader"></div>
+            </div>) : (
+        <div className="pseudo">
+            <Nav />
+            <Home />
+        </div>
+        )}
         </div>
     )
-
 }
 
 export default Main;
